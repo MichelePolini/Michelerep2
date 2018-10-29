@@ -8,33 +8,6 @@ namespace Provabranch3
 {
     class Program
     {
-            public static int max(int[] v)
-        {
-            int a = 0;
-            for (int i = 0; i < 11; i++)
-            {
-                if (v[i] > a)
-                {
-                    a = v[i];
-                }
-
-            }
-            return a;
-        }
-
-        public static int min(int[] v)
-        {
-            int a = 999999;
-            for (int i = 0; i < 11; i++)
-            {
-                if (v[i] < a)
-                {
-                    a = v[i];
-                }
-
-            }
-            return a;
-        }
         static void Main(string[] args)
         {
             int[] array = new int[11];
@@ -50,11 +23,10 @@ namespace Provabranch3
             array[8] = 2134;
             array[9] = 3000;
             array[10] = 32;
-
-            int risultato_max = max(array);
-            int risultato_min = min(array);
-            Console.WriteLine(array.Max());
-            Console.WriteLine(array.Min());
+            Console.WriteLine("Il valore massimo dell'array e': "+array.Max());
+            Console.WriteLine("Il valore minimo dell'array e': "+array.Min());
+            Array.Sort(array);
+            Console.WriteLine(array.ToString());
             Console.ReadLine();
 
         }
