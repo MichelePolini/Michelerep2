@@ -1,0 +1,6 @@
+C:\Users\studente\Desktop\Provabranch3\Provabranch3\bin\Debug\Provabranch3.exe.config
+C:\Users\studente\Desktop\Provabranch3\Provabranch3\bin\Debug\Provabranch3.exe
+C:\Users\studente\Desktop\Provabranch3\Provabranch3\bin\Debug\Provabranch3.pdb
+C:\Users\studente\Desktop\Provabranch3\Provabranch3\obj\Debug\Provabranch3.csprojResolveAssemblyReference.cache
+C:\Users\studente\Desktop\Provabranch3\Provabranch3\obj\Debug\Provabranch3.exe
+C:\Users\studente\Desktop\Provabranch3\Provabranch3\obj\Debug\Provabranch3.pdb
