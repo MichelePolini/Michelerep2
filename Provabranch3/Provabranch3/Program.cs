@@ -26,7 +26,12 @@ namespace Provabranch3
             Console.WriteLine("Il valore massimo dell'array e': "+array.Max());
             Console.WriteLine("Il valore minimo dell'array e': "+array.Min());
             Array.Sort(array);
-            Console.WriteLine(array.ToString());
+            Console.Write("Array ordinato in modo crescente: " + "");
+            for (int i = 0; i < 11; i++)
+            {
+                Console.Write(array[i].ToString()+" ");
+
+            }
             Console.ReadLine();
 
         }
